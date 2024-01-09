@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+        background:url("https://fthmb.tqn.com/n9MgM8YhLQjgcbZvPqW6jvQRkzk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/european-painting-gallery--museum-of-fine-arts--boston--ma-141818702-5a77b8048e1b6e0037f6ebf8.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 98% 98%;
+        font-family: sans-serif;
+    }
+.menu-bar
+{
+    background:#d8bfd8;
+    text-align: center;
+
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:#fff
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#131111;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #8c90e7;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #da9ae7;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted#3d096e;
+    background:transparent;
+    border-radius: 0;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+    color:beige;
+}
+
+.sub-menu-2{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    background: #da9ae7;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display:block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #3d096e;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+    color:beige;
+}
+.sub-menu-3{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3
+{
+    display: block;
+    position: absolute;
+    background: #da9ae7;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+    display:block;
+    margin: 5pxpx;
+
+}
+.menu-bar ul li:hover .sub-menu-3 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #3d096e;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li a:hover
+{
+    color:beige;
+}

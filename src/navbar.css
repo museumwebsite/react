@@ -1,0 +1,187 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 70%;
+}
+body {
+    font-size: 1.6rem;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:rgb(19, 22, 22);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background: rgb(195, 245, 253);
+}
+.nav_brand {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.nav_toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgray;
+    transition: 0.4s ease-in;
+}
+.nav_toggler {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_toggler {
+        display: block;
+    }
+  .nav_menu {
+    position: fixed;
+    bottom: 7vh;
+    right: 0;
+    width: 50%;
+    height: 70vh;
+    background: rgb(179, 226, 235);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }  
+}
+
+.nav_active {
+    transform: translateX(0);
+}
+
+.toggle.line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle.line2 {
+    opacity: 0;
+}
+.toggle.line3 {
+    transform: rotate(-45deg) translate(-4px, -5px);
+}
+.sub-nav{
+    display: none;
+}
+.nav ul li:hover .sub-nav
+{
+    display: block;
+    position: absolute;
+    background: #acf5ff;
+    margin-top: 2px;
+    margin-left: -20px;
+}
+.nav ul li:hover .sub-nav ul
+{
+    display:block;
+    margin: 2px;
+
+}
+.nav ul li:hover .sub-nav ul li
+{
+    top: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 1px dotted #98eefd;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav ul li:hover .sub-nav ul li:last-child
+{
+    border-bottom:none;
+}
+.nav ul li:hover .sub-nav ul li a:hover
+{
+    color:rgb(127, 119, 236);
+}
+.sub-nav-1{
+    display: none;
+}
+.nav ul li:hover .sub-nav-1
+{
+    display: block;
+    position: absolute;
+    background: #acf5ff;
+    margin-top: 2px;
+    margin-left: -20px;
+}
+.nav ul li:hover .sub-nav-1 ul
+{
+    display:block;
+    margin: 2px;
+
+}
+.nav ul li:hover .sub-nav-1 ul li
+{
+    top: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 1px dotted #98eefd;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav ul li:hover .sub-nav-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.nav ul li:hover .sub-nav-1 ul li a:hover
+{
+    color:rgb(127, 119, 236);
+}
+.sub-nav{
+    display: none;
+}
+.nav ul li:hover .sub-nav-1
+{
+    display: block;
+    position: absolute;
+    background: #acf5ff;
+    margin-top: 2px;
+    margin-left: -20px;
+}
+.nav ul li:hover .sub-nav-1 ul
+{
+    display:block;
+    margin: 2px;
+
+}
+.nav ul li:hover .sub-nav-1 ul li
+{
+    top: 2px;
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 1px dotted #98eefd;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav ul li:hover .sub-nav-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.nav ul li:hover .sub-nav1 ul li a:hover
+{
+    color:rgb(127, 119, 236);
+}
